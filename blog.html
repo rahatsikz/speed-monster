@@ -30,7 +30,7 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              What is the difference between local storage and session storage?
             </button>
           </h2>
           <div
@@ -40,21 +40,20 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              The difference between local storage and session storage is that
+              the stored data on local storage don't get deleted when we close
+              the browser.Session storage data gets stored only for the session
+              and gets deleted when browser is closed. Local storage is useful
+              for storing data that you want to persist even after closing the
+              browser. On the other hand, session storage is useful for storing
+              data that is sensitive.
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item bg-dark text-white">
           <h2 class="accordion-header" id="headingTwo">
             <button
-              class="accordion-button collapsed"
+              class="accordion-button collapsed bg-dark text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
